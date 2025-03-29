@@ -20,8 +20,8 @@ function App() {
   return (
     <div className="App">
     <h2>FETCH AND AXIOS</h2>
-    <button onClick= {() => fetchClick()}>using fetch Getting Cat fact </button>
-    <button onClick= {() => axiosClick()}>using axios Getting cat fact </button>
+    <button class="btn" onClick= {() => fetchClick()}>using fetch Getting Cat fact </button>
+    <button class="btn" onClick= {() => axiosClick()}>using axios Getting cat fact </button>
     <p>{fact}</p>
     </div>
   );
